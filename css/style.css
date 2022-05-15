@@ -618,6 +618,23 @@ pre code {
   .container, .container-sm, .container-md {
     max-width: 720px;
   }
+
+}
+@media (max-width: 768px) {
+  .team-item div img {
+    object-fit: contain;
+  }
+  .slide-img{
+    height: 500px !important;
+  }
+}
+@media (max-width: 576px) {
+  .height-200{
+    height: unset !important;
+  }
+  .navbar-brand img{
+    height: 60px !important;
+  }
 }
 
 @media (min-width: 992px) {
